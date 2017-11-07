@@ -7,7 +7,7 @@ import javax.swing.JOptionPane;
 /*Nombre yanira Galeas Rojas
  Fecha 06 11 2017
  Clase Contraseñajava2
- Responsabilidad
+ Responsabilidad aplicaciones de Escritorio
  *
  * @author ceduc
  */
@@ -16,30 +16,42 @@ public class Clase2Contraseña
    public static void main(String[] args) 
    {
        
-int  contraseña, clave;
-
-while (int <=0)
-
+  float clave1,clave2,clave3;
+  int contraseña;
+ contraseña =1482;
  
-      
-clave = Int.parseinteger(JOptionPane.showInputDialog("Ingrese una contraseña"));
+ 
+clave1 = Float.parseFloat(JOptionPane.showInputDialog("Ingrese una contraseña"));
 
-if(clave <=0);
+clave2=  Float.parseFloat(JOptionPane.showInputDialog("Ingrese otra contraseña"));
+   
+if(contraseña <=1482);
 {
-   JOptionPane.showMessageDialog(null, " cuenta bloqueada " );  
+       JOptionPane.showMessageDialog(null, " cuenta bloqueada, comuniquese con soporte tecnico " );        
+       }
 
        else
        
-if(clave<=0){
                
-       JOptionPane.showMessageDialog(null,"Comuniquese con soporte tecnico " );
-        else
+               }            
+    }
+
+               
+               
+       
+       
+               
+               
+               
+        
+      
+
+       
+           
 
 
-    
-}
-    
-}
+        
+        
 
            
     
